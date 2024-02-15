@@ -12,6 +12,7 @@
     "joi": "^17.12.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^5.9.23",
+    "nodemon": "^3.0.3",
     "validator": "^13.11.0"
   },
   "scripts": {
