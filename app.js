@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 
-app.use(cors({ credentials: true, origin: "http://localhost:3001" }));
+app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 app.use(cookieParser());
